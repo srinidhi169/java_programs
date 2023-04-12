@@ -1,0 +1,6 @@
+1.srart
+2.read basic salary
+3.find<-- DA=(basic salary/50)
+4.find HRA=(basic salary/25)
+5.find gross salary=(basic salary+DA+HRA)-->
+6.Stop

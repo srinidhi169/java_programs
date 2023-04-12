@@ -1,0 +1,16 @@
+write the algorithm to find the biggest of three numbers
+
+
+
+
+
+start
+read the numbers number1,number2,number3
+cheak weather the 
+if(number1>number2)
+	print("number1 is greater")
+if(number2>number3)
+	print("number2 is greater")
+elseif(number3>number)
+	print("number3 is greater")
+stop 
