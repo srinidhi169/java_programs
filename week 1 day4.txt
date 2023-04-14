@@ -1,0 +1,106 @@
+#reverse number
+1.start
+2.read the number
+3.intialize reverse number<--0
+4.repeat the steps 5-7 until number!=0
+5.digit<--- number%10
+6.reverse number<--reverse number*10+digit
+7.number<--number/10
+8.print reverse number
+9.stop
+ 
+
+
+palindrome number or not
+1.start
+2.read the number
+3.intialize reverse number<--0
+4.repeat the steps 5-7 until number!=0
+5.digit<--- number%10
+6.reverse number<--reverse number*10+digit
+7.number<--number/10
+8.if(number=reverse number)
+	print"it is a palindrome number"
+  else
+	print"it is not a palindrome number"
+9.print number
+10.stop
+
+
+
+Armstrong number or not
+1.start
+2.read the number n
+3.initialize the sum=0 temp=number
+4.repeate the steps 5-8 until n<=count
+5.digit=number%10
+6.digit=digit*digit*digit
+7.sum=sum+digit
+8.number=number/10
+9.if(sum==temp)
+	print"it is a Armstrong number"
+  else
+	print"it is not a Armstrong number"
+10.print sum
+11.stop
+
+algorithm to print n terms of the Fibonacci series 
+1.start
+2.read the number n
+3.initialize a=0,b=1,count=2
+4.if(n==1)
+	print a
+  else if(n==2)
+	print a and b
+  else
+  {
+     i. print a,b
+     ii.repeate the steps a-d until count<n
+       a. c=a+b
+       b. print c
+       c. a=b
+       d. b=c
+       d. count=count+1
+   }
+5.stop
+
+
+
+sum of n numbers
+1.start
+2.read n
+3.initialize sum=0,count=1
+4.repeate the steps a-c until count<=n
+	a.read the number 
+	b.sum=sum+number
+	c.count++
+5.print sum
+6.stop
+
+
+
+
+strong number
+1:start
+2:read the positive number n
+3:initialize sum=0,temp=n
+4.repeatedly execute the steps i-iv until(number!=0)
+	i.digit=number%10
+	ii.digit!
+	ii.number=number/10
+	iv.sum=sum+digit!
+5.if(sum==temp)
+	print"the entered number is strong number"
+  else
+	print"the entered number is not a strong number"
+6.stop
+
+
+
+
+
+
+
+
+
+
