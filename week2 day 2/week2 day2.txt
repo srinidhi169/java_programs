@@ -1,0 +1,9 @@
+1.start
+2.read a positive number
+3.initialize sum=0
+4.repeatedly execute the steps (i-iii) untill(number!=0)
+	i.digit=number%10
+	ii.sum=sum+digit
+	iii.number=number/10
+5.print sum
+6.stop
