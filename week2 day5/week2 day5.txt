@@ -1,0 +1,226 @@
+//pseudocode to find sum of n numbers
+begin
+	declare the veriables n,sum,count,i
+	read a positive integer n
+	initialize sum=0,count=1,i=1
+	while(count<=n)
+	{
+		sum=sum+1
+		i=i+1
+		count=count+1
+	}
+	print sum
+stop
+
+
+
+//pseudocode to find sum of n even numbers
+begin
+	declare the veriables n,sum,i
+	read a integer n
+	initialize sum=0,i=2
+	while(i<=n)
+	{
+		sum=sum+n
+		i=i+2
+	}	
+	print sum
+stop
+
+
+
+//pseudocode to find a person is eligible to vote r not
+begin
+      read the age
+      declare the variable age
+      if age is grater than or equal to 18
+          print"eligible to vote"
+      else
+          print "not eligible to vote"
+      end if
+stop
+
+
+
+//pseudocode to find a find factorial of positive integer number
+begin
+	read the integer n
+	declare the variable n,factorial,i,count
+	initialize factorial=1,i=1,count=1
+	while(count<=n)
+	{
+		factorial=factorial*i
+		i=i+1
+		count=count+1
+	}
+	print factorial
+stop
+
+
+    
+//pseudocode to find n is perfect number or not
+begin
+	declare the variables sum,n,i
+	read the the positive integer
+	initialize sum=0
+	while(i<n)
+	{
+      	  if(n%i==0)
+		{​​​​​​​
+     		  sum=sum+i
+		}​​​​​​​
+	  end if
+	  i=i+1
+	}
+	if(sum == n)
+	{​​​​​​​
+		print "n is perfect number"
+	}
+	else 
+	{
+                print "n is not a perfect number"
+	}​​​​​​​
+	end if
+stop
+
+      
+    
+//pseudocode to find whether a student is eligible to take admission in a college(if percentage is greater than 85 then he is eligible to take admission)
+begin
+      read the percentage of students
+      declare the variable percentage
+      if(percentage>85)
+               print"eligible"
+      else
+               print"not eligible"
+     end if
+stop
+
+
+
+//pseudocode find the gross salary of the employee
+begin
+    declare the integers basic_sal,hra,da,gross_sal
+    read basic_sal
+    hra=(basic_sal)*20/100
+    da=(basic_sal)*50/100
+    gross_sal=(basic_sal+da+hra)
+    print gross_sal
+stop
+
+
+
+//pseudocode for swapping of 2 numbers with using third variable
+begin
+     declare the variables number1, number2, temp
+     read the two quantities number 1, number 2
+     compute  temp<--number1 
+     compute  number1<---number2
+     compute  number<---- temp
+     print the swapped values number1 and number2
+stop
+    
+
+
+//Pseudocode to find  given integer is Armstrong number or not
+begin
+    declare the variables n,sum,temp,digit
+    read the integer n
+    initialize the sum=0,temp=n
+    while(n<=0)
+       {​​​​​​​ 
+            digit=number%10
+            digit=digit*digit*digit
+            sum=sum+digit
+            n=n/10
+       }​​​​​​​
+    if(sum=temp) 
+        {​​​​​​
+         print " n is armstrong number"
+	}​​​​​​​ 
+    else
+	{​​​​​​​      
+        print " n is not a armstrong number"
+        }​​​​​​​
+    end if
+stop
+
+    
+
+    
+//pseudo code to find n is perfect number or not
+begin 
+      declare the variables sum,n,i
+      read the the positive integer
+      initialize sum=0
+      while(i<n)
+      {
+        if(n%i==0)
+        {​​​​​​​
+          sum=sum+i
+        }
+	end if​​​​​​​
+        i=i+1
+      }
+     if (sum == n)
+     {​​​​​​​
+        print "n is perfect number"
+     else 
+        print "n is not a perfect number"
+     }​​​​​​​
+     end if
+stop
+      
+
+    
+//pseudocode to find biggest of two number
+begin
+    declare the variables number1 and number2
+    read the number1 and number2
+    if(number1>number2)
+    {​​​​​​​
+    print number1 is biggest
+    }​​​​​​​
+    else
+    {​​​​​​​
+    print number2 is biggest
+    }​​​​​​​
+stop
+
+
+
+    
+//pseudocode to swap two numbers
+begin
+    declaring variables integer num1,num2,temp
+    reading the two numbers
+    compute temp=num1
+            num1=num2
+            num2=temp
+    print "num1 and num2"
+end
+
+
+
+​
+// pseudocode to find the sum and average of a given 3 numbers
+begin
+       declare the variables numbers, sum, average
+       read the numbers number1,number2,number3
+       compute sum=number1+number2+number3
+       compute average=sum/3
+       print sum
+       print average
+end                  
+
+
+
+
+
+
+
+
+
+
+
+
