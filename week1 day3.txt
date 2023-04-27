@@ -1,74 +1,114 @@
-
-#sum of n numbers
-start
-read number n
-initialize sum<-0, count<-1,i<-1
-repeatedly execute the stepa (i)-(iii)
-unti(count<=n)
-sum<-sum+1
-i<-i+1
-count<-count+1
-
-#sum of n even numbers
-start
-read number n
-initialize sum<-0,i<-2
-if(i<=n)
-sum<-sum+i
-print sum
-stop
-
-
-#factorial of n numbers
-start
-read number n
-intialize val<-1, count<-1,i<-1
-execute until(count<=n)
-val<-n*i
-i<-i+1
-count<-count+1
-print val
-stop
-
-
-#write a algorithm to find factorial of positive integer number
-1.start
-2.read the number n
-3.initialize factorial=1,i=1,count=1
-4.repeatedly execute the steps i,ii,iii until(count<=n)
-        (i) factorial=factorial*i
-        (ii) i=i+1
-        (iii) count=count+1
-5.print factorial
-6.stop
-
-
-#write a algorithm to find factorial of odd numbers
-1 : start
-2 : read the number n
-3 : initialization of  i<---1,product<--1,count<--1
-4 : repeatedly execute the steps (i) (ii) (iii) until(count<=n)
-        i. product<--product*i
-        ii. i<---i+2
-        iii.count<--count+1
-5 : print product
-6 : stop
-
-
-#write a algorithm to find sum of the digits
-1:start
-2:read the positive number n
-3:initialize sum=0
-4.repeatedly execute the steps until(n!=0)
-	i.digit=number%10
-	ii.sum=sum=digit
-	iii.number=number/10
-5.print sum
-6.stop
+begin
+    numeric week_num
+    print("Enter Week number to find week day")
+    input week_num
+     if(week_num==1) {​​
+            print("Monday")
+        }​​
+       else if (week_num==2) {​​
+             print("Tuesday")
+         }​​
+       else if (week_num==3) {​​
+             print("Wednesday")
+         }​​
+       else if (week_num==4) {​​
+             print("Thursday")
+         }​​
+       else if (week_num==5) {​​
+             print("Friday")
+         }​​
+       else if (week_num==6) {​​
+             print("Saturday")
+         }​​
+       else if (week_num==7) {​​
+             print("Sunday")
+         }​​
+       else {​​
+           print("Invalid week number")
+            }​​
+end
 
 
 
 
+//pseudocode to generate the grading based on the marks of the student
+Begin
+   Numeric internal_score,external_score,Project_score,total_score
+   print("Enter Internal score, External score and project score")
+   input internal_score
+   input external_score
+   input project_score
+   
+    if(internal_score>=50 && external_score>=50 && project_score>=50) {
+    
+         total_score=(10*internal_score)/100 + (20*external_score)/100+(70*project_score)/100;
+ 
+       if(total_score>=90) {
+               print("A grade")
+        }
+        else if (total_score>=70) {
+               print("B grade") 
+        }
+       else{
+               print("C grade")
+        }
+     }
+else {
+ 
+       if(internal_score<50){
+              print("failed in internals and score is ",internal_score)
+        }
+       if(external_score<50){
+              print("failed in external and score is ",external_score)
+        }
+       if(project_score<50){
+              print("failed in Project and score is ",project_score)
+        }
+}
+ 
+end
+
+
+
+
+
+//pseudocode for calculating the TDS of an employeebegin
+	floating point salary,tds
+	print("enter the salary")
+	input salary
+	if(salary<=700000)
+	{
+		print("no TDS applicable")
+	}
+	elseif(salary>700000)
+	{
+		if(salary<=300000)
+			{
+			  tds=(5*salary)/100
+			  print tds
+			}
+		elseif(salary>300000 && salary<=600000)
+			{
+			  tds=(10*salary)/100
+			  print tds
+			}
+		elseif(salary>600000 && salary<=900000)
+			{
+			  tds=(15*salary)/100
+			  print tds
+			}
+		elseif(salary>900000 && salary<=1200000)
+			{
+			  tds=(20*salary)/100
+			  print tds
+			}
+		elseif(salary>=1200000)
+			{
+			  tds=(30*salary)/100
+			  print tds
+			}
+	}
+end
 
 
 
