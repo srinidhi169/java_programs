@@ -1,0 +1,21 @@
+typecasting examples
+class Typecasteing 
+{
+	public static void main(String[] args) 
+	{
+		int a=10;
+		double b=a;
+		System.out.println(b);//implicite typecasteing
+	}
+}
+
+
+class Typecasteing 
+{
+	public static void main(String[] args) 
+	{
+		double a=100.00;
+		int b=(int)a;
+		System.out.println(b);//explicite typecasteing
+	}
+}

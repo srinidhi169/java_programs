@@ -1,0 +1,93 @@
+java-is an high level,platform independent,object oriented programing language.
+
+features of java
+1.object-oriented
+2.platform independent 
+3.simple
+4.secure
+5.mutti-threaded
+6.robust
+7.portable
+8.interpreted
+
+
+components of java:
+JDK-java development kit=jRE+ compilers+debugging etc.
+JRE-java run-time environment =JVM+ class libraries
+JVM-java virtual machine=translates bytecode to machine level instructions
+JIT-just in time compiler=it improves the performance of the code by identifying the hotspots(most frequently executable code in the program).
+
+1.save code with java extension
+      MyFirstApp.Java
+2.campile
+    javac MyFirstApp.Java
+3.Run
+   java MyFirstApp.Java
+4.Output
+
+
+
+1.documentation section
+2.package section
+3.import section
+4.interface section
+5.class defenation
+6.main method
+
+
+IDENTIFIERS:
+Identifier rules:They can have alphabets, digits, underscore and dollar symbol
+                 They must not begin with digit
+                 Keywords cannot be used as identifiers
+                 whitespace characters are also not allowed
+
+
+NAMEING CONVENSTIONS:
+•A package represents a sub directory that contains a group of classes and interfaces. Names of packages in Java are written in small letters
+•Each word of class names and interface names start with a capital letter (String, DataInputStream, ActionListener etc.)
+•The first word of a variable and method name is in small letters; then from second word onwards, each new word starts with a capital letter(readLine( ), nextInt( ) )
+•Constants represent fixed values that cannot be altered. Such constants should be written by using all capital letters
+*All keywords should be written by using all small letter
+
+
+tokens-basic building blocks of a java program 
+	1.keywords
+	2.literals
+	3.identifiers
+	4.operetors
+	5.comments
+1.keywords-pre-defined words which is haveing predefined meanings
+	ex:static,int,for etc
+2.literals-the word used to describe the value
+3.identifiers-sequence of characters to identify something in program
+4.0peretors-Arithmetic operators.
+	Assignment operators.
+	Comparison operators.
+	Logical operators.
+	Bitwise operators.
+5.comments-Single-line comments(//).......(//)
+	   multiline comments (/*).......(*/)
+
+datatypes-Primitive data types - includes byte , short , int , long , float , double , boolean and char.
+	  Non-primitive data types - such as String , Arrays and Classes
+
+Datatype 	size	range
+byte	        8	-128 to 127
+short	        16	-32,768 to 32,767
+int	        32	-2^31 to 2^31-1
+long	        64	-2^63 to 2^63-1
+float 		32
+double		64
+char		16
+boolean		1
+
+
+variables:-it is a named memory location whose values can change during execution program.
+    syntax:- datatype var1,var2,var3,.......,varn;
+
+
+Naming conventions-
+*the first letter of the clss name must be capital
+*The first word of a variable and method name is in small letters
+*he first word of a variable and method name is in small letters; then from second word onwards, each new word starts with a capital letter 
+
