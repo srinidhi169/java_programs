@@ -1,0 +1,75 @@
+Step1: START
+step2: Insert ATM card intlo ATM machine
+step3: check the card is valid or not
+step4: if the card is not valid hold the card ortherwise select the options
+
+     a. Cash withdrawal 
+     b. Account balance inquiry 
+     c. Transfer funds 
+     d. Bill payment 
+     e. Change pin 
+
+step5: if you choose "cash withdrawal" follow (i-vi) steps and go to step10
+
+
+i. select the language
+ii. select withdraw money
+iii. select savings
+iv. enter pin number
+v. enter the amount
+vi. collect the cash go to step  
+
+step6:- if you choose "Account balance inquiry" follow (i-vii) steps and go to step10
+
+
+  i.  go to main menu and select balance inquiry
+  ii. enter the pin number
+ iii. select transaction-account balance
+ iv.  select from account type - chequing or savings
+ v. select YES to continue to another transaction or no to vomplete balance enquiry
+ vi. retrieve your card
+ vii. collect your receipt
+
+step7:- if you choose "Transfer funds" follow  ( i-ix  )steps and go to step10
+
+
+  i. select language
+ ii. enter the pin
+iii. select "YES"
+iv.  click on "funds transfer"
+v.   enter the required details - bank account number/ bank name
+vi.  choose bank account type
+vii. enter the amount
+viii.click "YES" to confirm the transaction
+ix.  finally you will receive the transaction details to register mobile number
+
+step8:- if you choose " Bill payment " follow ( i-ix  ) steps and go to step10
+
+
+i. select language
+ii. enter the pin
+iii. choose main menu
+iv. select "pay bills"
+v. Enter Transaction Amount
+vi.choose bank account type
+vii. enter the  bill amount
+viii.click "YES" to confirm the payment details
+ix.  finally you will receive the transaction details to register mobile number
+
+step9:- if you choose " Change pin " follow ( i-ix  ) steps and go to step10
+
+i. select language
+ii. enter the pin
+iii. choose main menu
+iv. select change PIN
+v. go to existing pin
+vi. enter the new pin
+vii. OTP IS SEND TO REGISTER MOBILE NUMBER
+viii. enter OTP to validate the action
+ix. finally you will receive message to register mobile number that your pin is successfully changed
+
+step10.STOP
+
+
+
+

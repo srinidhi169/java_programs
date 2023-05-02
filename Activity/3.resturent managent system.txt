@@ -1,0 +1,46 @@
+ Algorithm to develop the software called " Restaurant Management system"
+
+1.start
+2.open the website/app
+3.home page displays several modules like
+
+   * kitchen management
+   * order management(offline/online)
+   * employee management
+   
+
+4.if we click on "kitchen management"it shows 
+
+* the quantity & avalibility of goods and groceries present in the kitchen.
+* No. of items being cooked 
+* No of  parcels packed per day
+
+
+
+5. if we click on "order managemet" it displays 2 options i.e online orders & offline orders 
+
+*  tracking of total no.of online & offline order
+*   it displays the reservations / advance bookings
+
+6.if we click on "employee management"
+
+*  total No.of present employees 
+* No.of employes working in the restaurant in a day
+* Details of the employees
+* no.of leaves of employees
+
+7.if we click "Revenue management" it shows the revenue generated on the particular day/month/year , it keep the previous records and it Displays
+
+           *  salaries of the employees
+           *  profit & loss generated per day/month/year
+
+8. if we click on "customer review/feedback" it displays the reviews/feedbacks of the customers
+
+9. if we click on "Menu management" it displays
+      
+        * Different items
+        * Add/Delete items
+        * Update the price of items
+10.stop
+   
+   
