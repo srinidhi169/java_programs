@@ -1,0 +1,39 @@
+Oporetors:
+Operator in Java is a symbol that is used to perform operations
+*combination of operends and operator is called a expression.
+*based on how many operands that an operator will accecpt we have 3 types
+they are:1.unary operator 
+	 2.binary operator 
+	 3.ternary operator
+based on the opretions that the operator will perform we have
+types are:
+	1.Arithmetic Operators
+	2.Assignment Operator
+	3.Relational Operators
+	4.Logical Operators
+	5.Ternary Operator
+	6.Bitwise Operators
+1. Arithmetic Operators: They are used to perform simple arithmetic operations on primitive data types. 
+
+* : Multiplication
+/ : Division
+% : Modules 
++ : Addition
+– : Subtraction
+
+2.Assignment Operator: ‘=’ Assignment operator is used to assigning a value to any variable.
+3.Relational Operators: These operators are used to check for relations like equality, greater than, and less than.
+	*the result is in the boolean value(true/false)
+	==,!=,<,>,<=,>=
+4.Logical Operators: These operators are used to perform logical operetions.
+	1.&&, Logical AND: returns true when both conditions are true.
+	2.||, Logical OR: returns true if at least one condition is true.
+	3.!, Logical NOT: returns true when a condition is false and vice-versa	
+
+5.Ternary operator: Ternary operator if the condition is true then first statement is printed else 2nd stement is printed
+	condition ? if true : if false
+6. Bitwise Operators: These operators are used to alter the individual bits of a number. 
+	1.&, Bitwise AND operator: returns bit by bit AND of input values.
+	2.|, Bitwise OR operator: returns bit by bit OR of input values.
+	3.^, Bitwise XOR operator: returns bit-by-bit XOR of input values.
+	4.~, Bitwise Complement Operator: This is a unary operator which returns the one’s complement
