@@ -1,0 +1,34 @@
+//wajp to find how many positive & negative elements are there in an arrayl.
+import java.util.Scanner;
+public class NegativePositive{
+  public static void main(String[] args) {
+    All sn = new All();
+    sn.array();
+  }
+}
+
+class All {
+  public void array() {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("enter the size of an array");
+    int n=sc.nextInt();
+    int num[]=new int[n];
+    int count1=0,count2=0;
+    System.out.println("enter the elements of array");
+    for(int i=0;i<n;i++){
+      num[i]=sc.nextInt();
+    }
+     for(int i=0;i<n;i++){
+      if(num[i]>0){
+        count1++;
+      }
+    }
+    for(int i=0;i<n;i++){
+      if(num[i]<0){
+        count2++;
+      }
+    }
+    System.out.println("the total number of positive elements are " +count1);
+    System.out.println("the total number of negative elements are " +count2);
+  }
+}
