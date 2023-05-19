@@ -1,30 +1,30 @@
 
 //write a program to check all strong numbers from 1 to n where n is an integer
-import java.util.Scanner;
-
-public class AllStrong{
-  public static void main(String[] args) {
-    All sn = new All();
-    sn.prime();
-  }
-}
-
-class All {
-  public void Strong() {
+public class AllPrime{
+  public static void main(String[] args){
+    Prime_Not pon = new Prime_Not();
     Scanner sc = new Scanner(System.in);
-    System.out.println("enter the number");
-    int n = sc.nextInt();
-    int counter;
-    System.out.print("strong numbers are ");
-    for (int j = 2; j <= n/2; j++) {
-      counter = 0;
-      for (int i = 1; i <= j; i++) {
-        if (j % i == 0) {
-          counter++;
-        }
-      }
-      if (counter == 2)
-        System.out.print(j + " ");
+    int n,i;
+    System.out.println("enter n value");
+    n = sc.nextInt();
+    for(i=1;i<=n;i++){
+    boolean b = pon.isPrime(i);
+      if(b)
+      System.out.println(i);
+    }
     }
   }
-}
+
+    class Prime_Not{
+      public boolean isPrime(int num){
+    if(num<=1)
+      return false;
+    else{
+      int i;
+    for(i=2;i<num;i++)
+        if(num%i==0)
+          return false;
+      return true;
+    }
+  }
+    }
