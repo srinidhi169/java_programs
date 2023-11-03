@@ -1,0 +1,23 @@
+//read 5 inputs from the user and print
+import java.util.Scanner;
+public class Array1{
+  public static void main(String[] args) {
+    All sn = new All();
+    sn.array();
+  }
+}
+
+class All {
+  public void array() {
+    Scanner sc = new Scanner(System.in);
+    int num[]=new int[5];
+    System.out.println("the elements of array are");
+    for(int i=0;i<num.length;i++){
+      num[i]=sc.nextInt();
+    }
+   System.out.println("the entered elements of array are");
+    for(int i=0;i<num.length;i++){
+      System.out.println(num[i]);
+    }
+  }
+}
